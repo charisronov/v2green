@@ -1,0 +1,14 @@
+CHANGE MENU IN DISPLAY CONTROLER
+
+
+You can override anything in the menu structure from your printer.cfg. It's described in the documentation here: https://www.klipper3d.org/Config_Reference.html#menu
+. The default menu layout is defined here: https://github.com/KevinOConnor/klipper/blob/master/klippy/extras/display/menu.cfg
+, but you can't alter it by changing that file, you need to override it in the main printer.cfg.
+
+I should be able to add a command to the main menu right? It would be nice to be able to quickly call my cancel print macro.
+Jup, entirely possible.
+Home display: https://github.com/Klipper3d/klipper/blob/master/klippy/extras/display/display.cfg
+Menu: https://github.com/Klipper3d/klipper/blob/master/klippy/extras/display/menu.cfg
+
+
+https://github.com/Frix-x/klipper-voron-V2
